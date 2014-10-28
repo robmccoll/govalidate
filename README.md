@@ -26,7 +26,7 @@ Validate an instance of the struct by calling Validate:
     }
 
 Validate will return an error string describing which field value failed and why. Optionally,
-you can call ```ValidateUseName(inst, "json")``` or some other tag name to use the values
+you can call ```ValidateUseName(inst, "json")``` with ```"json"``` or some other tag name to use the values
 in that tag in error messages in place of field names.
 
 Validate tags:
