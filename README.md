@@ -3,7 +3,7 @@ govalidate
 
 Validate struct fields (currently strings and []strings) in Go using tags.
 
-Definte your struct with the validation built-in:
+Define your struct with the validation built-in:
 
     type Valid struct {
         Required  string   `require:"+"`
